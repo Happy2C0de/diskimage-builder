@@ -6,7 +6,7 @@ fi
 set -eu
 set -o pipefail
 
-if [[ $DISTRO_NAME = "centos7" ]]; then
+if [[ $DISTRO_NAME = "centos7" || $DISTRO_NAME = "centos8" ]]; then
     eval declare -A image_elements=($(get_image_element_array))
     found=0
     for i in "${!image_elements[@]}"; do

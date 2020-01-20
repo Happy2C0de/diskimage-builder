@@ -40,6 +40,7 @@ DEFAULT_SKIP_TESTS=(
     opensuse/build-succeeds
     opensuse/opensuse15-build-succeeds
     centos7/build-succeeds
+    centos8/build-succeeds
     debian/build-succeeds
     fedora/build-succeeds
     ubuntu/trusty-build-succeeds

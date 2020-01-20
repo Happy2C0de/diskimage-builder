@@ -6,7 +6,7 @@ fi
 set -eu
 set -o pipefail
 
-if [[ $DISTRO_NAME =~ (opensuse|fedora|centos|centos7|rhel|rhel7) ]]; then
+if [[ $DISTRO_NAME =~ (opensuse|fedora|centos|centos7|centos8|rhel|rhel7) ]]; then
 
     # Default packages
     _do_py3=0
