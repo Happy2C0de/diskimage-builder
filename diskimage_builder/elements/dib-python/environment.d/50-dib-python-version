@@ -12,6 +12,8 @@ if [ -z "${DIB_PYTHON_VERSION:-}" ]; then
         fi
     elif [ "$DISTRO_NAME" == "centos7" ]; then
         DIB_PYTHON_VERSION=2
+    elif [ "$DISTRO_NAME" == "centos8" ]; then
+        DIB_PYTHON_VERSION=3
     elif [ "$DISTRO_NAME" == "rhel7" ]; then
         # TODO(nmagnezi): Remove this when the 'rhel7' element gets replaced by 'rhel'
         DIB_PYTHON_VERSION=2

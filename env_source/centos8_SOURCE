@@ -1,4 +1,4 @@
 #!/bin/bash
-unset DIB_RELEASE
+export DIB_RELEASE=8
 unset DIB_DISTRIBUTION_MIRROR
 export DIB_CLOUD_INIT_ETC_HOSTS=localhost
