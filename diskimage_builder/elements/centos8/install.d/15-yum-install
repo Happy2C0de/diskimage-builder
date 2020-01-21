@@ -1,6 +1,7 @@
 #!/bin/bash
 set -eu
 set -o pipefail
-yum -y update
+#yum -y update
 #yum -y install yum-cron
-yum -y install dnf-automatic
+dnf -y update
+dnf -y install dnf-automatic
