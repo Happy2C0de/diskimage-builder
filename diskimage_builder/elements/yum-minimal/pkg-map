@@ -4,6 +4,10 @@
           "7": {
               "NetworkManager": "",
               "dhcp-client": ""
+          },
+          "8": {
+              "NetworkManager": "cloud-init",
+              "dhcp-client": ""
           }
       }
   },

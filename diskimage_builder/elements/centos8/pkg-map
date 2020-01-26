@@ -1,0 +1,9 @@
+{
+  "distro": {
+    "centos8": {
+        "tgt": "targetcli",
+        "NetworkManager": "cloud-init",
+        "dhcp-client": "dhclient"
+    }
+  }
+}
